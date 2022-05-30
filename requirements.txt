@@ -3,3 +3,5 @@ osascript
 python-rtmidi
 ipython
 ipdb
+pyperclip
+openai

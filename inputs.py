@@ -16,6 +16,6 @@ def get_input(default=None):
 
     print("Available Inputs:")
     for index, input_name in enumerate(available_inputs):
-        print(f'\t{index}. {input_name}')
+        print(f"\t{index}. {input_name}")
 
     return available_inputs[int(input("Select an Input (number): "))]

@@ -4,10 +4,19 @@ Simple Python App to configure a MIDI keyboard to do your bidding.
 
 To extend the functionality, add/modify `controls`.
 
+## Requirements
+
+- MacOS
+- AppleScript
+- https://github.com/nriley/brightness (Build locally if on M1 or M2 chips)
+- https://github.com/PyAr/fades
+
 ## Running
 
+For OpenAI functionality, copy `.env.template` to `.env` and provide your credentials.
+
 ```
-fades -r requirements.txt --python=python3 -x python run.py --auto
+env $(cat .env) fades -r requirements.txt --python=python3 -x python run.py --auto
 ```
 
 ## LICENSE
